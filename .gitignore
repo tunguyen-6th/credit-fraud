@@ -1,0 +1,15 @@
+# Trained model artifacts (regenerate via train_fraud_model.py)
+models/
+
+# Datasets (large, may contain PII-shaped fields)
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Spark local metadata
+derby.log
+metastore_db/
+spark-warehouse/
